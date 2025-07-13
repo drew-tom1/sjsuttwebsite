@@ -20,9 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en overscroll-none overflow-x-hidden h-full">
       <body
-        className={`${geistSans.variable} font-sans antialiased`}
+        className={`${geistSans.variable} font-sans antialiased overflow-x-hidden h-full`}
       >
         <Navbar />
         {children}
