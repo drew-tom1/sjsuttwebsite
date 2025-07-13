@@ -25,7 +25,9 @@ export default function RootLayout({
         className={`${geistSans.variable} font-sans antialiased overflow-x-hidden h-full`}
       >
         <Navbar />
-        {children}
+        <div className="pt-[7rem]">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
