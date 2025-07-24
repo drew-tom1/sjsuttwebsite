@@ -19,6 +19,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+
   return (
     <html lang="en">
       {/* Next.js will automatically inject your <head> elements here */}
